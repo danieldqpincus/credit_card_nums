@@ -80,6 +80,7 @@ def get_new_card_number():
 
 
 def create_account():
+    """Prints 'create new account', and adds account to working dictionary"""
     card_num = get_new_card_number()
     print("Your card has been created\nYour card number:")
     print(card_num)
